@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#control-panel {
+    padding: 50px;
+    width: 10%;
+    right: 10px;
+    top: 5%;
+    position: absolute;
+}
+
+#colorSelector {
+    position: relative;
+    width: 36px;
+    height: 36px;
+}
+
+#colorSelector div {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 30px;
+    height: 30px;
+}
